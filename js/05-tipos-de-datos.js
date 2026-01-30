@@ -17,26 +17,26 @@ var verdadero = true;
 var nulo = null;
 var indefinida = undefined;
 
-console.log(cadena_de_texto,cadena_de_texto2,indefinida,nulo);
+console.log(cadena_de_texto, cadena_de_texto2, indefinida, nulo);
 
 //me dice el tipo de dato de la variable
-console.log(typeof(indefinida));
+console.log(typeof (indefinida));
 
 var numero1 = "34" //cadena de texto
-console.log(numero1+5); //resultado 345 como cadena de texto
+console.log(numero1 + 5); //resultado 345 como cadena de texto
 
 //convierto el string a numero
-console.log(Number(numero1)+5);
+console.log(Number(numero1) + 5);
 
 //convierto el string a numero entero
-console.log(parseInt(numero1)+5);
+console.log(parseInt(numero1) + 5);
 
 //convierto el string a numero decimal
-console.log(parseFloat(numero1)+5);
+console.log(parseFloat(numero1) + 5);
 
 //convierto a string
-console.log(String(numero1)+5);
-console.log(typeof(numero1));
+console.log(String(numero1) + 5);
+console.log(typeof (numero1));
 
 
 
