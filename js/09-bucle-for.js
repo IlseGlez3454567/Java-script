@@ -1,7 +1,6 @@
 'use strict'
 
-for (var i = 0; i <= 100; i++ ) {
- console.log('Es el número '+i);
- //i = i+1;
+for (var i = 0; i <= 100; i++) {
+    console.log('Es el número ' + i);
+    //i = i+1;
 }
-

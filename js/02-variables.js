@@ -1,15 +1,15 @@
-'use strict' //Es para buenas prácticas de js, define errores
+'use strict' //JS best practices, and help define errors
 
 var country = 'Mexico';
 var shape = 'Circulo';
-var countryAndShape = country + shape; //concatenar variable
+var countryAndShape = country + shape; //concatenate variable
 var quantity = 10;
 
 console.log(country);
 console.log(countryAndShape);
-console.log(country + ' ' + shape); //espacio
+console.log(country + ' ' + shape); //space
 
 country = 'Brasil';
 
 console.log(country);
-console.log(country, shape, quantity); //espacios
+console.log(country, shape, quantity); //spaces

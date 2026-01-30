@@ -1,28 +1,25 @@
 'use strict'
 
-//switch estructura de control que permite ejecutar diferentes casos
+//Switch -> control structure that allows different cases to be executed
 
+var age = 75;
+var print = "";
 
-var edad = 75;
-var imprime ="";
-
-switch (edad) {
+switch (age) {
     case 18:
-        imprime = 'Acabas de cumplir la mayoría de edad';
+        print = 'Acabas de cumplir la mayoría de edad';
         break;
     case 25:
-        imprime = 'Eres un adulto';
+        print = 'Eres un adulto';
         break;
     case 40:
-        imprime = 'La crisis de los 40';
+        print = 'La crisis de los 40';
         break;
     case 75:
-        imprime = 'Eres ya un adulto mayor';
+        print = 'Eres ya un adulto mayor';
         break;
-
     default:
-        imprime = 'Tu edad es neutra';
+        print = 'Tu edad es neutra';
         break;
 }
-
-console.log(imprime);
+console.log(print);
