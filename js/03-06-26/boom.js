@@ -2,9 +2,7 @@
 
 /*access and modificate properties of window to navegator*/
 
-
-
-function getBom(){
+function getBom() {
     console.log(window.innerWidth);
     console.log(window.innerHeight);
 }
@@ -15,9 +13,15 @@ console.log(screen.height);
 console.log(window.location.href); //url
 
 
-function redirect(url){
+function redirect(url) {
     window.location.href = url;
 }
 //redirect to google.com
+//redirect('https://www.google.com');
 
-redirect('https://www.google.com');
+function windowOpen(url) {
+    //window.open(url);
+    window.open(url, '', 'width=400 , height=300');
+}
+
+windowOpen('https://www.google.com');
